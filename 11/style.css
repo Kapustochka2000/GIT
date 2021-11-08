@@ -1,0 +1,47 @@
+.flag{
+    border: 2px solid blue;
+    margin: 0 auto;
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+.circle{
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 200px;
+    top: 50px;
+}
+.fixedblock{
+    width: 100px;
+    height: 150px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.farther{
+    height: 1500px;
+    width: 600px;
+    margin: 0 auto;
+
+}
+.first{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    background: rgb(221,40,105);
+    background: linear-gradient(0deg, rgba(221,40,105,1) 48%, rgba(238,253,45,1) 100%);
+    background: rgb(221,40,105);
+    background: linear-gradient(0deg, rgba(221,40,105,1) 48%, rgba(238,253,45,1) 100%);
+    z-index: 2;
+}
+.second{
+    position: absolute ;
+    width: 170px;
+    height: 170px;
+    border-radius: 25%;
+    background: rgb(221,40,105);
+    background: linear-gradient(0deg, rgba(221,40,105,1) 70%, rgba(238,253,45,1) 100%);
+}
